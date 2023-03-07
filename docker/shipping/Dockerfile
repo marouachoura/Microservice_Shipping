@@ -1,7 +1,7 @@
 FROM weaveworksdemos/msd-java:jre-latest
 
 WORKDIR /usr/src/app
-COPY *.jar ./app.jar
+COPY target/*.jar ./app.jar
 ARG BUILD_DATE
 ARG BUILD_VERSION
 ARG COMMIT
