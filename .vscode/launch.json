@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ShippingServiceApplication<shipping>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "works.weave.socks.shipping.ShippingServiceApplication",
+            "projectName": "shipping",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

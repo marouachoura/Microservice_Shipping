@@ -1,0 +1,30 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "GET",
+                "url": "/health"
+            },
+            "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "body": {
+                    "health": [
+                        {
+                            "name": "shipping-rabbitmq",
+                            "status": "OK",
+                            "date": "{{now}}"
+                        },
+                        {
+                            "name": "shipping",
+                            "status": "OK",
+                            "date": "{{now}}"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
