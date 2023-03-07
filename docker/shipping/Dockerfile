@@ -2,7 +2,7 @@ FROM weaveworksdemos/msd-java:jre-latest
 
 WORKDIR /usr/src/app
 COPY *.jar ./app.jar
-
+RUN	chmod 777 ./app.jar
 ARG BUILD_DATE
 ARG BUILD_VERSION
 ARG COMMIT
