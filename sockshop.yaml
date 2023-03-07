@@ -708,7 +708,7 @@ spec:
     spec:
       containers:
       - name: shipping
-        image: maroua20/microserviceshipping:v2 #weaveworksdemos/shipping:0.4.8
+        image: maroua20/microserviceshipping:v3 #weaveworksdemos/shipping:0.4.8
         env:
          - name: ZIPKIN
            value: zipkin.jaeger.svc.cluster.local
