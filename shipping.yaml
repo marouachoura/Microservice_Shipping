@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: shipping
-        image: myapp-shipping:latest
+        image: weaveworksdemos/shipping:0.4.8
         env:
          - name: ZIPKIN
            value: zipkin
